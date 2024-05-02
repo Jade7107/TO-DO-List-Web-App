@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: white;
+}
+.col{
+    color: white;
+}
+
+header {
+    color: #03AED2;
+    font-size: 4vw;
+    text-align: center;
+}
+
+footer {
+    color: #03AED2;
+    font-size: 2vw;
+    text-align: center;
+}
+
+li {
+    direction: rtl;
+    margin: 10px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: #8a8585;
+}
+
+.tasks {
+    background-color: #03AED2;
+    cursor: pointer;
+    color: black;
+    padding: 2px;
+}
+
+.tasks:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.tasks:active {
+    background-color: greenyellow;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        color: #03AED2;
+        font-size: 7vw;
+        text-align: center;
+    }
+    footer {
+        color: #03AED2;
+        font-size: 4vw;
+        text-align: center;
+    }
+}
